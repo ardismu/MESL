@@ -23,9 +23,25 @@
 			  height: 'toggle'
 			});
 		  });
+//flip2			
 		  $("#flip2").click(function(){
 			$("#panel2").animate({
 			  height: 'toggle'
 			});
-		  });	
-		});
+		  });
+//show1
+		  $("#hide").click(function(){
+			$("#fixed").hide();
+		  });
+		  $("#show").click(function(){
+			$("#fixed").show();
+		  });
+//show2
+		  $("#hide").click(function(){
+			$("#fixed").hide();
+		  });
+		  $("#show2").click(function(){
+			$("#fixed2").show();
+		  });
+			
+});
