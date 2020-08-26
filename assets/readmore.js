@@ -15,12 +15,17 @@
 * limitations under the License.
 */
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="js/jquery.min.js"></script>
-$(document).ready(function(){
-  $("button").click(function(){
-    $("div").animate({
-      height: 'toggle'
-    });
-  });
-});
+/**<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>*/
+//flip1
+		$(document).ready(function(){
+		  $("#flip").click(function(){
+			$("#panel").animate({
+			  height: 'toggle'
+			});
+		  });
+		  $("#flip2").click(function(){
+			$("#panel2").animate({
+			  height: 'toggle'
+			});
+		  });	
+		});
