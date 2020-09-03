@@ -46,5 +46,19 @@
 		  $("#show4").click(function(){
 			$("#fixed4").show();
 		  });
+//show5
+		  $("#hide5").click(function(){
+			$("#fixed5").hide();
+		  });
+		  $("#show5").click(function(){
+			$("#fixed5").show();
+		  });
+//show6
+		  $("#hide6").click(function(){
+			$("#fixed6").hide();
+		  });
+		  $("#show6").click(function(){
+			$("#fixed6").show();
+		  });
 			
 });
