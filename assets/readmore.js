@@ -18,17 +18,6 @@
 /**<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>*/
 //flip1
 		$(document).ready(function(){
-		  $("#flip").click(function(){
-			$("#panel").animate({
-			  height: 'toggle'
-			});
-		  });
-//flip2			
-		  $("#flip2").click(function(){
-			$("#panel2").animate({
-			  height: 'toggle'
-			});
-		  });
 //show1
 		  $("#hide").click(function(){
 			$("#fixed").hide();
@@ -37,11 +26,25 @@
 			$("#fixed").show();
 		  });
 //show2
-		  $("#hide").click(function(){
-			$("#fixed").hide();
+		  $("#hide2").click(function(){
+			$("#fixed2").hide();
 		  });
 		  $("#show2").click(function(){
 			$("#fixed2").show();
+		  });
+//show3
+		  $("#hide3").click(function(){
+			$("#fixed3").hide();
+		  });
+		  $("#show3").click(function(){
+			$("#fixed3").show();
+		  });
+//show4
+		  $("#hide4").click(function(){
+			$("#fixed4").hide();
+		  });
+		  $("#show4").click(function(){
+			$("#fixed4").show();
 		  });
 			
 });
